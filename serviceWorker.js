@@ -22,6 +22,7 @@ self.addEventListener("install", installEvent => {
     })
   );
 });
+/// very difficult
 
 self.addEventListener("fetch", fetchEvent => {
   fetchEvent.respondWith(
