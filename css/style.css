@@ -4,13 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: #fdfdfd;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
-
 main {
   max-width: 900px;
   margin: auto;
@@ -22,16 +20,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 ul {
   list-style: none;
   display: flex;
 }
-
 li {
   margin-right: 1rem;
 }
-
 h1 {
   color: #e74c3c;
   margin-bottom: 0.5rem;
@@ -49,7 +44,7 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 15rem auto;
+  width: 15rem;
   height: 15rem;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
