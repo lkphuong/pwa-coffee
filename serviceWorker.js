@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-coffee-site-v1";
+const staticTenguCoffee = "tengu-coffee-site-v1";
 const assets = [
   "/",
   "/index.html",
@@ -17,12 +17,12 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticTenguCoffee).then(cache => {
       cache.addAll(assets);
     })
   );
 });
-/// very difficult
+
 
 self.addEventListener("fetch", fetchEvent => {
   fetchEvent.respondWith(
